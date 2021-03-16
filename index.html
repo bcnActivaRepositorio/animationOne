@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!--metas lang and foremost-->
+    <meta charset="UTF-8">
+    <!--who knows?-->
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <!--First querie always well loved-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--description-->
+    <meta name="description" content="Exercise IT Academy css ball in movement">
+    <!--keywords-->
+    <meta name="keywords" content="css, @itacademy, IT Academy, bouncing, ball, exercise">
+    <!--ho am I?-->
+    <meta name="author" content="Robert Garcia">
+    <!--License-->
+    <meta name="copyright" content="MIT | Robert Garcia">
+    <!--robots crawlling-->
+    <meta name="robots" content="index, nofollow">
+    <!--Lasting 12h-->
+    <meta http-equiv="cache-control" content="43200">
+    <!--css-->
+    <link rel="stylesheet" href="styles.css">
+    <!--bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <!--font awesome-->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css">
+
+    <title>Transitions & Animations</title>
+</head>
+<body>
+   <header>
+    <header>
+      
+        <!-- Background image -->
+        <div
+          class="p-5 text-center bg-image"
+          style="
+           
+            height: 400px;
+          "
+        >
+          <div class="mask">
+            <div class="d-flex justify-content-center align-items-center h-100">
+              <div class="text-dark">
+                <h1 class="mb-3 mt-3">Bouncing Ball</h1>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Background image -->
+      </header>
+   </header>
+   <main>
+    <div class="wrap red">
+      <div class="shadow"></div>
+      <div class="ball" id="theOne"></div>
+    </div>
+    <div class="wrap blue">
+      <div class="shadow"></div>
+      <div class="ball" id="theTwo"></div>
+    </div>
+   </main>
+   <footer>
+    <footer class="text-center text-white" >
+        <!-- Grid container -->
+        <div class="container pt-4">
+          <!-- Section: Social media -->
+          <section class="mb-4">
+      
+            <!-- Linkedin -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://www.linkedin.com/in/theclick36/"
+              target="_blank"
+              rel="noopener noreferrer"
+              role="button"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-linkedin"></i
+            ></a>
+            <!-- Github -->
+            <a
+              class="btn btn-link btn-floating btn-lg text-dark m-1"
+              href="https://github.com/bcnActivaRepositorio"
+              role="button"
+              target="_blank"
+              rel="noopener noreferrer"
+              data-mdb-ripple-color="dark"
+              ><i class="fab fa-github"></i
+            ></a>
+          </section>
+          <!-- Section: Social media -->
+        </div>
+        <!-- Grid container -->
+      
+        <!-- Copyright -->
+        <div class="text-center text-dark p-3" id="myCopy">
+         <small>
+             &copy;
+             <span id="thisOne"></span>
+             Designed with <i class="fa fa-heart text-danger"></i> by
+          <a class="text-dark" href="#!" target="_blank" rel="noopener noreferrer">theclick36</a>
+        </small>
+        </div>
+        <!-- Copyright -->
+      </footer>
+   </footer>
+    <!--js file-->
+    <script src="main.js"></script>
+</body>
+</html>
